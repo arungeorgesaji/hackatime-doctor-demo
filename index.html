@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackaTime Doctor - Development Environment Diagnostics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <h1>HackaTime Doctor</h1>
+            <p>A diagnostic tool that verifies your development environment meets all requirements for Hack Club's HackaTime and helps in its setup and fixing.</p>
+            
+            <div class="demo-container">
+                <div class="terminal-bar">
+                    <div class="terminal-button close"></div>
+                    <div class="terminal-button minimize"></div>
+                    <div class="terminal-button maximize"></div>
+                    <div class="terminal-title">HackaTime Doctor Demo</div>
+                </div>
+                <div class="demo-content">
+                  <video controls>
+                    <source src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/d097ab183f2161e201724838e7ecfa47d331ffee_hackatime-doctor.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Core Checks</h3>
+                    <p>Git installation, API connectivity test, and WakaTime config validation to ensure your environment is ready.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Installation & Setup</h3>
+                    <p>Auto-install for missing packages with multi-package manager support across all platforms.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Reporting & Output</h3>
+                    <p>JSON and CSV report generation with color-coded terminal output and detailed error messages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="checks" id="checks">
+        <div class="container">
+            <h2 class="section-title">Diagnostic Checks</h2>
+            <div class="check-list">
+                <div class="check-item">
+                    <div class="check-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="check-text">
+                        <h3>Git Installation Check</h3>
+                        <p>Verifies Git is installed and accessible in your PATH</p>
+                    </div>
+                </div>
+                
+                <div class="check-item">
+                    <div class="check-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="check-text">
+                        <h3>API Connectivity Test</h3>
+                        <p>Tests connection to HackaTime server for proper API communication</p>
+                    </div>
+                </div>
+                
+                <div class="check-item">
+                    <div class="check-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="check-text">
+                        <h3>WakaTime Config Validation</h3>
+                        <p>Validates WakaTime configuration files across multiple locations</p>
+                    </div>
+                </div>
+                
+                <div class="check-item">
+                    <div class="check-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="check-text">
+                        <h3>Project Structure Validation</h3>
+                        <p>Checks for required project files like README.md, LICENSE, and .gitignore</p>
+                    </div>
+                </div>
+                
+                <div class="check-item">
+                    <div class="check-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="check-text">
+                        <h3>Other Tools</h3>
+                        <p>Can verify installation of other devtools(Right now just added in NodeJS will add more in the future)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="install" id="install">
+        <div class="container">
+            <h2 class="section-title">Install HackaTime Doctor</h2>
+            
+            <p>Download the latest release for your platform:</p>
+            
+            <div class="code-block">
+                <code># Download from GitHub Releases
+https://github.com/arungeorgesaji/hackatime-doctor/releases/latest</code>
+            </div>
+            
+            <h3 style="margin-top: 40px; color: var(--accent);">Usage</h3>
+            <p>After installation, run the diagnostic tool:</p>
+            
+            <div class="code-block">
+                <code># Basic diagnostics
+hackatime-doctor
+
+# Extended diagnostics
+hackatime-doctor --full-check
+
+# Generate JSON report
+hackatime-doctor --json
+
+# Generate CSV report
+hackatime-doctor --csv</code>
+            </div>
+            
+            <div class="note">
+                <p><strong>Note:</strong> HackaTime Doctor though cross-platform has the best compatibility for linux.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>HackaTime Doctor - Keeping your development environment healthy</p>
+            <p>Made for Hackclubbers</p>
+        </div>
+    </footer>
+</body>
+</html>
