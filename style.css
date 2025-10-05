@@ -238,6 +238,21 @@ body {
     color: var(--dark-text);
 }
 
+.download-link {
+  display: inline-block;
+  background-color: var(--accent, #00c853);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.download-link:hover {
+  background-color: #009624;
+}
+
 footer {
     background-color: var(--secondary);
     padding: 30px 0;
